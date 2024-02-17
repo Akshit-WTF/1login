@@ -1,0 +1,20 @@
+{
+  "name": "1login",
+  "version": "1.0.0",
+  "description": "This package is used to interact with the OneLogin API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/akshit-wtf/1login",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "axios": "^1.6.7",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshit <admin@akshit.me>"
+}
